@@ -1,6 +1,10 @@
-# Artificial-Intelligence-for-the-Media-Assignments
+# Data Creation, Manipulation, and Communication
 
-This repository contains all files for the Artificial Intelligence for the Media course assignments. These assignments are as follows:
+This repository develops a deeper understanding of dataset creation, manipulation, and communication.
+
+## Description
+
+This repository contains all files for the Artificial Intelligence for the Media course assignments completed in part of my Masters of Data Science and AI degree. These assignments are as follows:
 
 Assignment 1: Creating My Own Dataset
 
@@ -30,3 +34,27 @@ Section Three adds two additional layers to the model. For this section, I rever
 Section Four first covers experimenting with other activation functions, specifically with Softsign and Tanhshrink. The second part of Section Four experiments with two different optimizers, Adam and Adadelta.
 
 Section Five responds to the following question: In a paragraph or so, describe how the image we have created differs from the original image.  
+
+## Getting Started
+
+### Dependencies
+
+* This project relied heavily on numpy and matplotlib.
+* Librosa to parse and manipulate audiofiles.
+
+### Executing program
+
+Working through this program is relatively easy and can be simply done by downloading any dataset of your choosing and uploading it within the Jupyter notebook. Within that you can utilize the cells available to reveal truths in the data.
+
+## Authors
+
+Marissa Beaty, https://github.com/mbeaty2
+
+## Version History
+* 0.1
+    * Initial Release
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
