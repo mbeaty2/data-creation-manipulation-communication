@@ -6,7 +6,7 @@ This repository develops a deeper understanding of dataset creation, manipulatio
 
 This repository contains all files for the Artificial Intelligence for the Media course assignments completed in part of my Masters of Data Science and AI degree. These assignments are as follows:
 
-Assignment 1: Creating My Own Dataset
+### Assignment 1: Creating My Own Dataset
 
 For this assignment, I wanted to create a dataset I could use for my mini-project for this course. I was interested in using a Pix2Pix model on drawings or sketches of architectural buildings and the real image of that building once built. To do this, I first started with my output or real images by conducting 7 searches in Pinterest and using PinDown to download the images into a folder. This resulted in about 7,000 images, videos, and text files. I then cleaned this folder to only include images related to the search. When referring to this assignment, you need to look at the Outputs_png, Inputs_png, Image_pairs folders, as well as the Assignment 1 code notebook. After I had all the images cleaned, I used the terminal and ImageMagick to change and resave all images as .png files, whereas before they were a mixture of .png and .jpg files. I then ran them through a code to resize them all to 512 x 512 to keep them all uniform. 
 
@@ -21,11 +21,11 @@ Finally, I renamed those images with beginning zeros and split my dataset into a
 
 Due to the large scale of the data, you can view these datasets here: https://artslondon-my.sharepoint.com/:f:/g/personal/m_beaty0520221_arts_ac_uk/Ejh8ZI5HJS1IuJpcAPEokPgBOGyB-T4ALOJmcc9uh_JQqA?e=cOBFct
 
-Assignment 2 - Datasheet
+### Assignment 2 - Datasheet
 
 Within this Assignment, you'll find a datasheet describing the data above in more detail. This datasheet follows the template provided to us by our Course leaders, answering all relevant questions, and removing those that do not fit the dataset. Those that do not fit are primarily regarding people. This datasheet also provides additional ideas in which this dataset could be used, as well as complications or limitations within the dataset. 
 
-Assignment 3 - Manipulating Images with Pytorch
+### Assignment 3 - Manipulating Images with Pytorch
 
 Assignment 3 follows a notebook provided by my course leaders. Given my computer's difficulty using Tensorflow, I have selected the Pytorch version of this notebook. Section One of this notebook is running through the code given with the notebook. In Section Two, I map the same code with a color image and translate the model to map RGB color values rather than just Black and White. This required a few changes in the code allowing the model to output 3 values in the output layer, and reshaping the image to have three dimension (height, width, RGB). 
 
